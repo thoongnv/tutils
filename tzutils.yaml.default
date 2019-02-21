@@ -1,0 +1,3 @@
+gitlab:
+    host: https://gitlab.example.com/api/v4
+    private_token: private_token
