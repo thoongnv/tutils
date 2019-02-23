@@ -12,7 +12,7 @@ import (
     "io/ioutil"
     "encoding/json"
     "github.com/atotto/clipboard"
-    "github.com/thoongnv/tzutils/config"
+    "github.com/thoongnv/tutils/config"
 )
 
 // Project object mapped with Gitlab project
@@ -28,7 +28,7 @@ func main() {
         gopath = build.Default.GOPATH
     }
 
-    v, err := config.ReadConfig("tzutils", gopath + "/src/github.com/thoongnv/tzutils")
+    v, err := config.ReadConfig("tutils", gopath + "/src/github.com/thoongnv/tutils")
     if err != nil {
         fmt.Println(err)
     }
